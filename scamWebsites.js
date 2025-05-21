@@ -15,4 +15,7 @@ var scamWebsitesRegEx = [
 	"^https?:\/\/(www\.)?e\.mobiapp-games\.net(\/.*)?$/gm", // Phone number scam? (Germany)
 	"^https?:\/\/(www\.)?rewardsgiantca\.com(\/.*)?$/gm", // Survey scam (Canada)
 	"^https?:\/\/(www\.)?holsatomastrer\.click(\/.*)?$/gm", // Fake news site (Russia)
+	"^https?:\/\/(www\.)?nl\.prijzen-winnaar\.com(\/.*)?$/gm", // Fake "Celebrate your mother with a gift" page (Netherlands)
+	"^https?:\/\/(www\.)?promotion\.quiztionnaire\.app(\/.*)?$/gm", // Survey scam? (Netherlands)
+	"^https?:\/\/(www\.)?app\.quiztionnaire-nl\.com(\/.*)?$/gm", // Survey scam? (Netherlands)
 ]
