@@ -24,4 +24,6 @@ var scamWebsitesRegEx = [
 	"^https?:\/\/(www\.)?sklinqasi\.com(\/.*)?$/gm", // Survey Scam? (Russia)
 	"^https?:\/\/(www\.)?dxv9ab0p31jil\.cloudfront\.net(\/.*)?$/gm", // Phone Number scam (Russia/USA)
 	"^https?:\/\/(www\.)?it.adessogratis.com(\/.*)?$/gm", // Survey/Credentials scam? (France)
+	"^https?:\/\/(www\.)?addcode\.pages\.dev(\/.*)?$/gm", // Free Robux scam
+	"^https?:\/\/(www\.)?addbux25\.pages\.dev(\/.*)?$/gm", // Free Robux scam
 ]
