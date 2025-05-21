@@ -1,3 +1,5 @@
+// Do not visit any of these sites that match the following RegEx.  They are considered phishing/scam
+
 var scamWebsitesRegEx = [
 	"^https?:\/\/(www\.)?powrnewsu\.click(\/.*)?$", // Fake news site
 	"^https?:\/\/(www\.)?instagramsecure\.com(\/.*)?$/gm", // Instagram phishing site
