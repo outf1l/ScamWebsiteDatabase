@@ -1,7 +1,7 @@
 // Do not visit any of these sites that match the following RegEx.  They are considered phishing/scam
 
 var scamWebsitesRegEx = [
-	"^https?:\/\/(www\.)?powrnewsu\.click(\/.*)?$", // Fake news site
+	"^https?:\/\/(www\.)?powrnewsu\.click(\/.*)?$", // Fake news site (Russia)
 	"^https?:\/\/(www\.)?instagramsecure\.com(\/.*)?$/gm", // Instagram phishing site
 	"^https?:\/\/(www\.)?idealassistenci\.com(\/.*)?$/gm", // Accused to be phishing by PhishTank
 	"^https?:\/\/(www\.)?idealconecta\.com(\/.*)?$/gm", // Accused to be phishing by PhishTank
@@ -14,4 +14,5 @@ var scamWebsitesRegEx = [
 	"^https?:\/\/(www\.)?nationalconsumerscenter\.co\.uk(\/.*)?$/gm", // Survey scam (UK)
 	"^https?:\/\/(www\.)?e\.mobiapp-games\.net(\/.*)?$/gm", // Phone number scam? (Germany)
 	"^https?:\/\/(www\.)?rewardsgiantca\.com(\/.*)?$/gm", // Survey scam (Canada)
+	"^https?:\/\/(www\.)?holsatomastrer\.click(\/.*)?$/gm", // Fake news site (Russia)
 ]
