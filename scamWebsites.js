@@ -26,4 +26,7 @@ var scamWebsitesRegEx = [
 	"^https?:\/\/(www\.)?it.adessogratis.com(\/.*)?$/gm", // Survey/Credentials scam? (France)
 	"^https?:\/\/(www\.)?addcode\.pages\.dev(\/.*)?$/gm", // Free Robux scam
 	"^https?:\/\/(www\.)?addbux25\.pages\.dev(\/.*)?$/gm", // Free Robux scam
+	"^https?:\/\/(www\.)?softonic\.com(\/.*)?$/gm", // Notifications scam
+	"^https?:\/\/(www\.)?1progs\.ru(\/.*)?$/gm", // Notifications scam (and probably malware)
+	"^https?:\/\/(www\.)?passgame\.ru(\/.*)?$/gm", // Notifications scam (and probably malware)
 ]
